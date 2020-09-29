@@ -1,0 +1,68 @@
+<html>
+
+<head>
+  <title>A Multiplayer Game</title>
+  <style>
+    /*#canvas {
+      width: 900 px;
+      height: 700 px;
+      border: 5px solid black; 
+    }*/
+
+    #leaderboard {
+      width: 15%;
+      height: auto;
+      position: absolute;
+      right: 2%;
+      top: 0;
+    }
+
+    .row {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 40px;
+      border-bottom: 1px solid #AFAFAF;
+    }
+
+    .name {
+      position: relative;
+      display: inline-block;
+      width: 75%;
+      line-height: 45px;
+    }
+
+    .score {
+      position: relative;
+      display: inline-block;
+      width: 25%;
+    }
+
+    .row:nth-child(2) {
+      background: gold;
+    }
+
+    .row:nth-child(3) {
+      background: #c0c0c0;
+    }
+
+    .row:nth-child(4) {
+      background: #cd7f32;
+    }
+  </style>
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+  <canvas id="canvas"></canvas>
+  <div id="leaderboard">
+
+  <div>
+  <div id='menu'>
+    <input type='text' id='username' placeholder='username'>
+    <button id='play'>PLAY</button>
+  </div>
+</body>
+<script src="/static/game.js"></script>
+
+</html>
