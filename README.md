@@ -3,7 +3,7 @@
 1. Download files. (clone the project or download and extract the zip)  
 1. In cmd, navigate to the folder with the files.  
 1. Type `node .` to start the server  
-1. Visit `localhost:5000` on your web browser. Press `ctrl+c` to stop the server.  
+1. Visit `localhost:5000` on your web browser. Others on your wifi can play using `[your IPv4 address]:5000`. Press `ctrl+c` to stop the server.  
 ## updates:  
 - calculate time differences on server to fix lag  
 - may be inefficient calculating collisions  
