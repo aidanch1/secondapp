@@ -10,7 +10,7 @@ app.get('/', function (request, response) {
     response.sendFile(path.join(__dirname, 'index.html'));
 });
 server.listen(5000, function () {
-    console.log('starting sever on port 5000');
+    console.log('Starting sever on port 5000\nPress ctrl+c to stop the server');
 });
 
 var players = {};
