@@ -113,7 +113,8 @@ socket.on('update players', function (list) {
 });
 
 socket.on('death', function(){
-    alert('lol u died and i cant figure out why menu wont change from hidden so u gotta refresh the page');
+    alert("you died.")
+    location.reload()
 });
 
 var canvas = document.getElementById('canvas');

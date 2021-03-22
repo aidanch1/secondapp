@@ -49,15 +49,20 @@
     .row:nth-child(4) {
       background: #cd7f32;
     }
+
+    #menu {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   </style>
   <script src="/socket.io/socket.io.js"></script>
 </head>
 
 <body>
   <canvas id="canvas"></canvas>
-  <div id="leaderboard">
-
-  <div>
+  <div id="leaderboard"></div>
   <div id='menu'>
     <input type='text' id='username' placeholder='username'>
     <button id='play'>PLAY</button>
